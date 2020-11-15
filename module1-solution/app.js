@@ -22,7 +22,7 @@ function LunchCheckController($scope) {
   OrderedItems.forEach((item, i) => {
     console.log(i);
     if (input ==" ") {
-        $scope.message="Please enter data first!";
+        $scope.message="Please Enter Data First!";
     }
     else if (i<2) {
         $scope.message="Enjoy!";
