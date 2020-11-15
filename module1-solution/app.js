@@ -22,14 +22,11 @@ function LunchCheckController($scope) {
   OrderedItems.forEach((item, i) => {
     console.log(i);
     if (input ==" ") {
-        //console.log('Please insert data!');
         $scope.message="Please insert data!";
     }
     else if (i<2) {
-      //console.log('Enjoy!');
         $scope.message="Enjoy!";
     }else if (i>2) {
-      //console.log('Too Much!');
       $scope.message="Too Much!";
     }
   });
